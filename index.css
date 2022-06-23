@@ -1,28 +1,36 @@
-* {color:white;
+* {
+  color: white;
   margin: 0;
-  font-family:'Caveat', cursive;;
+  font-family: "Caveat", cursive;
+}
+svg {
+  width: 10%;
+}
+.photo {
+  width: 100%;
+  height: auto;
 }
 
-.photo{width: 100%;
-height:auto;}
-body {
-  height: 2000px;
+.carousel a span {
+  color: white;
 }
 :root {
   --primary-color: #dba92a;
-  --secondary-color:#656D68
-  
+  --secondary-color: #656d68;
 }
-.info-right{border: 3px solid white;}
-.info{background-color:var(--primary-color) ;
+
+.info {
+  background-color: var(--primary-color);
 }
 /*HOMEPAGE*/
 .all_in {
   padding: 40px;
 }
-
+.myHistory {
+  color: var(--primary-color);
+}
 .container-a {
-  margin-top: 40px;
+  padding-top: 40px;
 }
 .contact {
   text-decoration: none;
@@ -33,26 +41,32 @@ body {
   cursor: pointer;
   transition: 0.5s;
 }
-
+@media (max-width: 809px) {
+  .info {
+    padding: 0 !important;
+  }
+}
 .contact:hover {
-  box-shadow: 2px 2px 20px white;
-  color:var(--primary-color)
+  box-shadow: 1px 2px 20px white;
+  color: var(--primary-color);
 }
 
-
-.contact{
-  background-color:white;
+.contact {
+  background-color: white;
   border: 1px solid var(--secondary-color);
-  color: var(--secondary-color);
+  color: black;
+  font-size: 20px;
 }
-span{color:var(--secondary-color)}
+span {
+  color: black;
+}
 h2 {
   font-size: 40px !important;
 }
+
 h1 {
   font-size: 75px !important;
 }
 h3 {
   font-size: 25px !important;
-
 }
