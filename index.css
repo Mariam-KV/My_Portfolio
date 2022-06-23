@@ -16,27 +16,37 @@ svg {
 }
 :root {
   --primary-color: #dba92a;
-  --secondary-color: #656d68;
+  --secondary-color: rgb(10, 88, 202);
 }
 
 .info {
   background-color: var(--primary-color);
 }
+.howIget a {
+  color: var(--primary-color);
+  text-decoration: solid;
+}
 /*HOMEPAGE*/
 .all_in {
   padding: 40px;
 }
+span,
 .myHistory {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 .container-a {
   padding-top: 40px;
+}
+.cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .contact {
   text-decoration: none;
   padding: 15px;
   border-radius: 5px;
-  margin: 0 20px;
+  margin: 0 10px;
   font-size: 15px;
   cursor: pointer;
   transition: 0.5s;
@@ -47,19 +57,18 @@ svg {
   }
 }
 .contact:hover {
-  box-shadow: 1px 2px 20px white;
+  box-shadow: 3px 3px 7px var(--secondary-color);
   color: var(--primary-color);
 }
 
 .contact {
   background-color: white;
   border: 1px solid var(--secondary-color);
-  color: black;
+  color: var(--secondary-color);
   font-size: 20px;
+  transition: 0.3s;
 }
-span {
-  color: black;
-}
+
 h2 {
   font-size: 40px !important;
 }
