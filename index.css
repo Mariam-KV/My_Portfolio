@@ -63,9 +63,7 @@ span,
   cursor: pointer;
   transition: 0.5s;
 }
-.cont a {
-  color: red;
-}
+
 .contact:hover {
   box-shadow: 3px 3px 7px var(--secondary-color);
 }
