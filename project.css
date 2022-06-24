@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  font-family: "Caveat", cursive;
+}
+:root {
+  --primary-color: #dba92a;
+  --secondary-color: rgb(10, 88, 202);
+}
+i {
+  color: var(--primary-color);
+  font-size: 170%;
+}
+.fa-check {
+  color: var(--secondary-color);
+  font-size: 70%;
+}
+.howIget a {
+  color: var(--primary-color);
+  text-decoration: solid;
+}
+
+.myHistory {
+  color: var(--secondary-color);
+  font-size: 60px !important;
+}
+.project {
+  color: var(--secondary-color);
+  font-size: 40px !important;
+}
+.contact {
+  text-decoration: none;
+  padding: 12px;
+  background-color: white;
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+  transition: 0.3s;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.contact:hover {
+  box-shadow: 3px 3px 7px var(--secondary-color);
+  color: var(--secondary-color);
+}
