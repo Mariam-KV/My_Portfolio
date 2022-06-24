@@ -31,6 +31,11 @@ i {
 .all_in {
   padding: 40px;
 }
+@media (max-width: 812) {
+  .photo {
+    border-radius: 40px;
+  }
+}
 span,
 .myHistory {
   color: var(--secondary-color);
@@ -53,11 +58,7 @@ span,
   cursor: pointer;
   transition: 0.5s;
 }
-@media (max-width: 809px) {
-  .info {
-    padding: 0 !important;
-  }
-}
+
 .contact:hover {
   box-shadow: 3px 3px 7px var(--secondary-color);
   color: var(--primary-color);
@@ -71,13 +72,11 @@ span,
   transition: 0.3s;
 }
 
-h2 {
-  font-size: 40px !important;
-}
-
 h1 {
   font-size: 75px !important;
 }
-h3 {
-  font-size: 25px !important;
+@media (max-width: 1120px) {
+  h1 {
+    font-size: 50px !important;
+  }
 }
