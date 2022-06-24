@@ -40,6 +40,9 @@ span,
 .myHistory {
   color: var(--secondary-color);
 }
+.myHistory {
+  font-size: 60px !important;
+}
 
 .container-a {
   padding-top: 40px;
@@ -52,8 +55,13 @@ span,
 .contact {
   text-decoration: none;
   padding: 12px;
+  background-color: white;
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+
+  transition: 0.3s;
   border-radius: 5px;
-  font-size: 15px;
+  font-size: 20px;
   cursor: pointer;
   transition: 0.5s;
 }
@@ -61,14 +69,6 @@ span,
 .contact:hover {
   box-shadow: 3px 3px 7px var(--secondary-color);
   color: var(--primary-color);
-}
-
-.contact {
-  background-color: white;
-  border: 1px solid var(--secondary-color);
-  color: var(--secondary-color);
-  font-size: 20px;
-  transition: 0.3s;
 }
 
 h1 {

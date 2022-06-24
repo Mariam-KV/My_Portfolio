@@ -1,0 +1,13 @@
+* {
+  color: white;
+  margin: 0;
+  font-family: "Caveat", cursive;
+}
+:root {
+  --primary-color: #dba92a;
+  --secondary-color: rgb(10, 88, 202);
+}
+i {
+  color: var(--primary-color);
+  font-size: 170%;
+}
