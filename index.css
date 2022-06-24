@@ -3,9 +3,7 @@
   margin: 0;
   font-family: "Caveat", cursive;
 }
-svg {
-  width: 10%;
-}
+
 .photo {
   width: 100%;
   height: auto;
@@ -18,7 +16,10 @@ svg {
   --primary-color: #dba92a;
   --secondary-color: rgb(10, 88, 202);
 }
-
+i {
+  color: var(--primary-color);
+  font-size: 170%;
+}
 .info {
   background-color: var(--primary-color);
 }
@@ -34,6 +35,7 @@ span,
 .myHistory {
   color: var(--secondary-color);
 }
+
 .container-a {
   padding-top: 40px;
 }
