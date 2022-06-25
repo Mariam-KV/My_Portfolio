@@ -44,7 +44,8 @@ i {
   box-shadow: 3px 3px 7px var(--secondary-color);
   color: var(--secondary-color);
 }
-.fu {
+
+.cards {
   display: flex;
   justify-content: center;
 }
