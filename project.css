@@ -49,3 +49,24 @@ i {
   display: flex;
   justify-content: center;
 }
+.contactMe h2 {
+  font-size: 80px;
+  color: var(--secondary-color);
+}
+.contactMe a {
+  display: block;
+  text-decoration: none;
+  padding: 15px;
+  font-size: 27px;
+}
+.contactMe a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--primary-color);
+}
+.all_in {
+  margin-top: 10%;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+}
