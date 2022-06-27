@@ -18,7 +18,8 @@
 }
 i {
   color: var(--primary-color);
-  font-size: 170%;
+  font-size: 150%;
+  transition: 0.3s;
 }
 .info {
   background-color: var(--primary-color);
@@ -85,4 +86,7 @@ h1 {
   .contact {
     display: none;
   }
+}
+.footer i:hover {
+  color: var(--secondary-color);
 }
