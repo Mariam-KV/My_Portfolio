@@ -50,6 +50,9 @@ i {
 .contactMe h2 {
   font-size: 80px;
 }
+.contactMe {
+  margin: 170px 0;
+}
 .contactMe a {
   display: block;
   text-decoration: none;
@@ -59,20 +62,10 @@ i {
   color: var(--primary-color);
 }
 
-.all_in {
-  margin-top: 10%;
-}
-.footerF {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-.footer i:hover {
-  color: var(--secondary-color);
+.footer {
+  padding-bottom: 20px;
 }
 
-.footerF i:hover {
-  transition: 0.3s;
+.footer i:hover {
   color: var(--secondary-color);
 }
