@@ -62,14 +62,19 @@ i {
   color: var(--primary-color);
 }
 
-.footer {
-  padding-bottom: 20px;
-}
-
 .footer i:hover {
   color: var(--secondary-color);
 }
 .active,
 .navbar a:hover {
   color: var(--secondary-color) !important;
+}
+.source h5 {
+  color: var(--primary-color) !important;
+}
+.source a {
+  text-decoration: none;
+}
+.source {
+  margin: 10px;
 }
