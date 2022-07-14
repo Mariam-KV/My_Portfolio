@@ -45,7 +45,7 @@ i {
 .cards {
   display: flex;
   justify-content: center;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 .contactMe h2 {
   font-size: 80px;
