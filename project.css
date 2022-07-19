@@ -25,6 +25,13 @@ i {
 .project {
   font-size: 40px !important;
 }
+.header {
+  font-size: 60px;
+}
+.card-text {
+  font-size: 25px;
+  text-align: center;
+}
 .contact {
   text-decoration: none;
   padding: 12px;
